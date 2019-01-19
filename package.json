@@ -1,0 +1,27 @@
+{
+  "name": "Newconomy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Header for Newconomy project",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "7.1.x",
+    "grunt": "1.0.x",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-pug": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "0.9.x",
+    "stylelint": "^9.7.0"
+  },
+  "scripts": {
+    "build": "grunt less && grunt postcss"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "engines": {
+    "node": ">= 8.2"
+  }
+}

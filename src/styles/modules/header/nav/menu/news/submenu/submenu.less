@@ -1,0 +1,37 @@
+.submenu {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 320px;
+  max-height: 0;
+  
+  font-size: 18px;
+  text-transform: none;
+  
+  overflow: hidden;
+  
+  &--show {
+    top: 75px;
+    
+    max-height: 300px;
+  }
+
+  &__item {
+    width: 90px;
+    
+    line-height: 1.3em;
+  }
+  
+  &__link {
+    color: @primary-darker100;
+    
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

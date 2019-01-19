@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Newconomy header</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page">
+    <header class="header page__header">
+      <div class="header__wrapper">
+        <button class="btn header__btn header__btn--menu"></button>
+        <div class="header__logo"><a class="header__link" href="#"><img class="header__image" src="./img/newconomy-no-slogan-logo-white.svg" alt="Logo Newconomy from text" width="150" height="50"></a></div>
+        <button class="btn header__btn header__btn--search"></button>
+      </div>
+      <nav class="nav header__nav">
+        <ul class="menu nav__list">
+          <li class="news menu__item menu__item--current"><a class="news__link menu__link" href="#">News</a>
+            <ul class="submenu news__list">
+              <li class="submenu__item"><a class="submenu__link" href="#">Exchanges</a></li>
+              <li class="submenu__item"><a class="submenu__link" href="#">STO</a></li>
+              <li class="submenu__item"><a class="submenu__link" href="#">Mining</a></li>
+              <li class="submenu__item"><a class="submenu__link" href="#">Legal</a></li>
+              <li class="submenu__item"><a class="submenu__link" href="#">Analytics</a></li>
+            </ul>
+          </li>
+          <li class="menu__item"><a class="menu__link" href="#">Market</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">People</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Ranking</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Guides</a></li>
+          <li class="menu__item menu__item--live"><a class="menu__link menu__link--live" href="#">Live</a></li>
+        </ul>
+      </nav>
+      <div class="search header__search">
+        <button class="btn search__btn search__btn--close"></button>
+        <div class="search__wrapper">
+          <input class="search__field" type="text" placeholder="Search...">
+          <button class="btn search__btn search__btn--find"></button>
+        </div>
+      </div>
+    </header>
+    <main class="index page__index">
+      <section class="categories page__section">
+        <h1 class="categories__title">Category: Exchanges</h1><img class="categories__image" src="./img/bitpay.jpg" alt="Mobile phone and cup of coffee" width="320" height="100">
+        <article class="bitpay categories__article">
+          <h2 class="bitpay__title">Bitpay Offers Single Payment In Multi-Cryptocurrency: BTC, BCH, USDC, GUSD, PAX</h2>
+          <p class="bitpay__text">Cryptocurrency payment service provider, BitPay took another step to offering extended services by introducing an option for merchants to be paid in multiple cryptocurrencies.</p>
+          <h3 class="bitpay__title">Official statement</h3>
+          <p class="bitpay__text">The service provider announced via Twitter, linking to its blog where it broke the momentous news to its merchants. The tally of currencies which the provider now supports has increased to five, apart from a host of local currencies.</p>
+        </article>
+      </section>
+    </main>
+    <footer class="page__footer"></footer>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

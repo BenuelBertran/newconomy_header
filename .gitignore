@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+.editorconfig
+.gitattributes
+.eslintrc
+.stylelintrc
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+node_modules/
+npm-debug.*
+Thumbs.db
+picturefill.js
+build

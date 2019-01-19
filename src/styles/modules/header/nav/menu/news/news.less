@@ -1,0 +1,31 @@
+.news {
+  &::after {
+    position: absolute;
+    content: "";
+    top: 48px;
+    left: 155px;
+
+    width: 18px;
+    height: 18px;
+
+    background-image: url(../img/angle-down-solid-green.svg);
+    background-repeat: no-repeat;
+  }
+  
+  &--show {
+    height: 100px;
+    
+     &::after {
+      position: absolute;
+      content: "";
+      top: 48px;
+      left: 155px;
+
+      width: 18px;
+      height: 18px;
+
+      background-repeat: no-repeat;
+      background-image: url(../img/angle-up-solid-green.svg);
+    }
+  }
+}
