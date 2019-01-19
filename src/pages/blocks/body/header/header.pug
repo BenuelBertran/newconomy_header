@@ -5,43 +5,5 @@ header(class="header page__header")
       a(class="header__link" href="#")
         img(class="header__image" src="./img/newconomy-no-slogan-logo-white.svg" alt="Logo Newconomy from text" width="150" height="50")
     button(class="btn header__btn header__btn--search")
-  nav(class="nav header__nav")
-    ul(class="menu nav__list")
-      li(class="news menu__item menu__item--current")
-        a(class="news__link menu__link" href="#") News
-        ul(class="submenu news__list")
-          li(class="submenu__item")
-            a(class="submenu__link" href="#") Exchanges
-          li(class="submenu__item")
-            a(class="submenu__link" href="#") STO
-          li(class="submenu__item")
-            a(class="submenu__link" href="#") Mining
-          li(class="submenu__item")
-            a(class="submenu__link" href="#") Legal
-          li(class="submenu__item")
-            a(class="submenu__link" href="#") Analytics
-      li(class="menu__item")
-        a(class="menu__link" href="#") Market
-      li(class="menu__item")
-        a(class="menu__link" href="#") People
-      li(class="menu__item")
-        a(class="menu__link" href="#") Ranking
-      li(class="menu__item")
-        a(class="menu__link" href="#") Guides
-      li(class="menu__item menu__item--live")
-        a(class="menu__link menu__link--live" href="#") Live
-  div(class="search header__search")
-    button(class="btn search__btn search__btn--close")
-    div(class="search__wrapper")
-      input(class="search__field" type="text" placeholder="Search...")
-      button(class="btn search__btn search__btn--find")
-main(class="index page__index")
-  section(class="categories page__section")
-    h1(class="categories__title") Category: Exchanges
-    img(class="categories__image" src="./img/bitpay.jpg" alt="Mobile phone and cup of coffee" width="320" height="100")
-    article(class="bitpay categories__article")
-      h2(class="bitpay__title") Bitpay Offers Single Payment In Multi-Cryptocurrency: BTC, BCH, USDC, GUSD, PAX
-      p(class="bitpay__text") Cryptocurrency payment service provider, BitPay took another step to offering extended services by introducing an option for merchants to be paid in multiple cryptocurrencies.
-      h3(class="bitpay__title") Official statement
-      p(class="bitpay__text") The service provider announced via Twitter, linking to its blog where it broke the momentous news to its merchants. The tally of currencies which the provider now supports has increased to five, apart from a host of local currencies.
-footer(class="page__footer")
+  include nav/nav
+  include search/search
