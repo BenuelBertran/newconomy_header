@@ -523,6 +523,7 @@ a {
   height: 18px;
   background-image: url(../img/angle-down-solid-green.svg);
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .news--show {
   height: 100px;
@@ -536,6 +537,7 @@ a {
   height: 18px;
   background-repeat: no-repeat;
   background-image: url(../img/angle-up-solid-green.svg);
+  cursor: pointer;
 }
 .submenu {
   position: absolute;
